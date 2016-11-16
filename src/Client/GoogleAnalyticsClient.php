@@ -24,7 +24,7 @@ class GoogleAnalyticsClient implements ClientInterface
     {
         // Connect to Google API using $this->accessToken and retrieve report data
         return [
-            'visits' => 100,
+            'visits' => 20,
         ];
     }
 }
